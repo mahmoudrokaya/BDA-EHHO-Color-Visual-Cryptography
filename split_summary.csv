@@ -1,0 +1,5 @@
+﻿split,image_count,total_size_mb,percentage
+test,200,14.061083,36.43
+train,200,13.877109,36.43
+val,100,7.3395,18.21
+unspecified,49,13.795884,8.93

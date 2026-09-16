@@ -1,0 +1,26 @@
+{
+  "data_root": "D:\\48\\481\\New Papers\\BDA_To_HHO_paper\\Data",
+  "total_files": 1139,
+  "readable_images": 549,
+  "unreadable_images": 0,
+  "total_size_bytes": 161826824,
+  "total_size_human": "154.33 MB",
+  "distinct_extensions": 16,
+  "distinct_dimensions": 5,
+  "color_modes": {
+    "RGB": 519,
+    "L": 30
+  },
+  "splits": {
+    "test": 200,
+    "train": 200,
+    "val": 100,
+    "unspecified": 49
+  },
+  "dataset_hints": {
+    "BSDS500": 1005,
+    "Unknown / custom": 134
+  },
+  "duplicate_groups": 15,
+  "duplicate_files": 30
+}
