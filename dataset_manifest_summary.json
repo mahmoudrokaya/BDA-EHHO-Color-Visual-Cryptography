@@ -1,0 +1,8 @@
+{
+  "total_color_images": 314,
+  "bsds500_validation": 100,
+  "bsds500_test": 200,
+  "usc_sipi_rgb": 14,
+  "excluded_non_rgb_count": 0,
+  "resizing": "none; native dimensions retained"
+}
