@@ -1,0 +1,2 @@
+﻿runs,mean_archive_size,median_archive_size,median_runtime_s,mean_runtime_s,mean_bda_fraction,mean_ehho_fraction,diversity_healthy_runs_pct,f1_mean_span,f2_mean_span,f3_mean_span,f4_mean_span
+24,85.875,100.0,131.24574944999767,119.4994111916676,0.49407894736842106,0.5059210526315789,100.0,0.04335505632921798,0.0013703104309186543,0.00046266011998098683,0.7659586056644881

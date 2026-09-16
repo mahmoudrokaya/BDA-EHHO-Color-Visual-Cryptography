@@ -1,0 +1,23 @@
+{
+  "completion_pass": true,
+  "budget_compliance_pass": true,
+  "archive_nonempty_pass": true,
+  "archive_nondominance_pass": true,
+  "diversity_health_pass": true,
+  "hybrid_balance_pass": true,
+  "all_four_objectives_active_pass": true,
+  "objective_nonconstant_by_run": {
+    "f1": true,
+    "f2": true,
+    "f3": true,
+    "f4": true
+  },
+  "frozen_objectives": {
+    "f1": "normalized reconstruction MSE",
+    "f2": "mean absolute secret-share Pearson correlation (S2)",
+    "f3": "mean normalized clean-vs-damaged reconstruction MSE under 5/10/20% central Share-1 block erasure (B1)",
+    "f4": "mean RGB group count / 255"
+  },
+  "status": "GROUP3_OBJECTIVES_FROZEN_PASS",
+  "next_stage": "E4 multi-objective comparative experiment"
+}
