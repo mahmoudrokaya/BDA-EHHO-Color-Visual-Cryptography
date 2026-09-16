@@ -1,0 +1,24 @@
+﻿oa_rank,title,year,doi,relevance_tier,dataset_or_test_image,novelty_threat
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Lena,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Barbara,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Baboon,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Peppers,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Jet,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Sailboat,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Cameraman,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,Boat,VERY_HIGH
+39,Design and implementation of image data sharing through a visual cryptography system with one-time password authentication.,2026.0,10.1038/s41598-026-58613-9,CORE,USC-SIPI,VERY_HIGH
+1,Image Encryption Using Modified Serpent Algorithm and Harris Hawks Optimization,2025.0,10.58346/jowua.2025.i1.009,CORE,Baboon,HIGH
+1,Image Encryption Using Modified Serpent Algorithm and Harris Hawks Optimization,2025.0,10.58346/jowua.2025.i1.009,CORE,Peppers,HIGH
+90,Size-Invariant Visual Cryptography With Improved Perceptual Quality for Grayscale Image,2020.0,10.1109/access.2020.3021522,CORE,Lena,LOW
+68,A Secure and Verifiable Color Visual Cryptography Scheme with LSB Based Image Steganography,2021.0,10.30534/ijatcse/2021/031042021,CORE,Lena,LOW
+68,A Secure and Verifiable Color Visual Cryptography Scheme with LSB Based Image Steganography,2021.0,10.30534/ijatcse/2021/031042021,CORE,Peppers,LOW
+44,Modified Elgamal based Visual Cryptography via Hybrid Optimization Framework,2024.0,10.46253/j.mr.v7i1.a5,CORE,Lena,LOW
+44,Modified Elgamal based Visual Cryptography via Hybrid Optimization Framework,2024.0,10.46253/j.mr.v7i1.a5,CORE,Baboon,LOW
+44,Modified Elgamal based Visual Cryptography via Hybrid Optimization Framework,2024.0,10.46253/j.mr.v7i1.a5,CORE,Cameraman,LOW
+78,Adaptive Particle Swarm Optimization Data Hiding for High Security Secret Image Sharing,2022.0,10.32604/csse.2022.022459,CORE,Peppers,LOW
+40,"An Efficient (n, n) Visual Secret Image Sharing using Random Grids with XOR Recovery",2019.0,10.5815/ijcnis.2019.11.02,CORE,Lena,LOW
+40,"An Efficient (n, n) Visual Secret Image Sharing using Random Grids with XOR Recovery",2019.0,10.5815/ijcnis.2019.11.02,CORE,Baboon,LOW
+89,A Multi-Layer Visual Cryptography Framework with Adaptive Key Optimization and Kronecker Product-Based Diffusion,2026.0,10.18280/ijsse.160514,CORE,Boat,LOW
+89,A Multi-Layer Visual Cryptography Framework with Adaptive Key Optimization and Kronecker Product-Based Diffusion,2026.0,10.18280/ijsse.160514,CORE,Airplane,LOW
+45,A Novel Hybrid Harris Hawks Optimization for Color Image Multilevel Thresholding Segmentation,2019.0,10.1109/access.2019.2921545,METHOD,BSD/BSDS,LOW

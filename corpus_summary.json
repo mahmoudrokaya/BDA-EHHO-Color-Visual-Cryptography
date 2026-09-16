@@ -1,0 +1,60 @@
+{
+  "papers_processed": 100,
+  "manual_review_required": 65,
+  "relevance_tier_counts": {
+    "METHOD": 81,
+    "CORE": 16,
+    "EXCLUDE": 3
+  },
+  "novelty_threat_counts": {
+    "LOW": 97,
+    "HIGH": 2,
+    "VERY_HIGH": 1
+  },
+  "direct_visual_cryptography_papers": 15,
+  "color_visual_cryptography_papers": 8,
+  "HHO_papers": 78,
+  "binary_HHO_papers": 15,
+  "BDA_papers": 8,
+  "papers_optimizing_color_levels": 1,
+  "papers_using_2_2": 9,
+  "papers_using_RGB": 15,
+  "papers_using_probabilistic_shares": 4,
+  "papers_using_XOR": 14,
+  "papers_mentioning_hybrid": 84,
+  "papers_mentioning_multiobjective": 48,
+  "optimizer_counts": {
+    "HHO": 78,
+    "PSO": 75,
+    "GA": 47,
+    "GWO": 46,
+    "Differential Evolution": 44,
+    "WOA": 40,
+    "Simulated Annealing": 30,
+    "Bat": 19,
+    "Binary HHO": 15,
+    "Sine Cosine": 15,
+    "Dragonfly": 11,
+    "Aquila": 10,
+    "BDA": 8,
+    "Tabu Search": 7,
+    "ALO": 7
+  },
+  "metric_counts": {
+    "Contrast": 48,
+    "Entropy": 31,
+    "Correlation": 30,
+    "Execution time": 23,
+    "MSE": 20,
+    "PSNR": 18,
+    "Histogram": 15,
+    "SSIM": 13,
+    "Pixel expansion": 11,
+    "BER": 5,
+    "Key space": 3,
+    "NPCR": 2,
+    "UACI": 2,
+    "NIST": 2,
+    "Avalanche": 1
+  }
+}
