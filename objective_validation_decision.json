@@ -1,0 +1,11 @@
+{
+  "recommended_security_candidate_by_discrimination": "S2_abs_cc_only",
+  "recommended_robustness_candidate_by_discrimination": "R4_abs_delta_secret_mse_mean",
+  "security_requires_human_conceptual_review": true,
+  "robustness_requires_human_conceptual_review": true,
+  "redundancy_warnings": [
+    "R3_secret_vs_noisy_mse_mean is highly redundant with old_f1_reconstruction (Spearman rho=0.999).",
+    "R4_abs_delta_secret_mse_mean is highly redundant with old_f1_reconstruction (Spearman rho=0.956)."
+  ],
+  "note": "Automatic rankings are diagnostic only. Final objective definitions must be frozen based on both discrimination and conceptual validity."
+}

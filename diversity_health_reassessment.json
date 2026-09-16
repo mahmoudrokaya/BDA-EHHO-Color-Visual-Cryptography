@@ -1,0 +1,9 @@
+{
+  "trigger": 0.7,
+  "healthy_runs_pct": 100.0,
+  "minimum_final_diversity": 0.7418518518518519,
+  "mean_final_diversity": 0.894128086419753,
+  "injection_active_runs_pct": 0.0,
+  "mechanism_health_pass": true,
+  "interpretation": "Zero injections are not a failure if diversity never falls below the trigger threshold."
+}
