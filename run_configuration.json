@@ -1,0 +1,22 @@
+{
+  "profile": "pilot",
+  "n_images": 12,
+  "runs_per_image": 2,
+  "population_sizes": [
+    10,
+    20
+  ],
+  "evaluation_budgets": [
+    200,
+    400
+  ],
+  "algorithms": [
+    "HHO-VC",
+    "EHHO-VC",
+    "BEHHO-VC",
+    "BDA-EHHO-VC"
+  ],
+  "selection_seed": 481,
+  "base_seed": 20260912,
+  "total_planned_runs": 384
+}
