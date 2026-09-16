@@ -1,0 +1,5 @@
+﻿algorithm_A,algorithm_B,median_runtime_difference_A_minus_MO_s,wilcoxon_statistic,p_raw,rank_biserial_A_minus_MO,wins_faster_MO,wins_faster_A,ties,p_holm,significant_holm_0_05
+HHO-VC,MO-BDA-EHHO-VC,-110.67205927499162,0.0,0.00048828125,-1.0,0,12,0,0.001953125,True
+EHHO-VC,MO-BDA-EHHO-VC,-111.44371404999401,0.0,0.00048828125,-1.0,0,12,0,0.001953125,True
+BEHHO-VC-Calibrated,MO-BDA-EHHO-VC,-96.5633458999946,0.0,0.00048828125,-1.0,0,12,0,0.001953125,True
+BDA-EHHO-VC-Calibrated,MO-BDA-EHHO-VC,-95.7477142749849,0.0,0.00048828125,-1.0,0,12,0,0.001953125,True

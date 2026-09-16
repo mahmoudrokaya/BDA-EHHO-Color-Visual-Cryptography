@@ -1,0 +1,6 @@
+﻿stage,algorithm,runs,median_runtime_s,mean_runtime_s,paired_for_inference
+Group2_100Image_Confirmation,BDA-EHHO-VC-Calibrated,500,27.54745645003277,25.41885047520208,False
+Group2_100Image_Confirmation,BEHHO-VC-Calibrated,500,27.861136549996445,26.815388944799896,False
+Group2_100Image_Confirmation,EHHO-VC,500,15.75319540000055,16.266499955000356,False
+Group2_100Image_Confirmation,HHO-VC,500,15.362331350013847,15.286454613401439,False
+E4_MO_100Image,MO-BDA-EHHO-VC,500,113.44917765000719,111.09236292380048,False

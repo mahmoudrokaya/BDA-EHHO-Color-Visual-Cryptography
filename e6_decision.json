@@ -1,0 +1,16 @@
+{
+  "experiment": "E6 computational efficiency and convergence",
+  "paired_benchmark_runs": 120,
+  "paired_images": 12,
+  "runs_per_image": 2,
+  "population": 30,
+  "budget": 600,
+  "runtime_friedman_statistic": 43.5333333333333,
+  "runtime_friedman_p": 8.019664982003484e-09,
+  "scalar_convergence_test": {
+    "metric": "fraction_to_95pct_terminal_scalar_improvement",
+    "friedman_statistic": 13.100000000000023,
+    "friedman_p": 0.0044252653584310716
+  },
+  "interpretation_note": "Runtime is directly compared in the paired E6 benchmark. Scalar convergence and MO archive-growth convergence are reported separately because they are different native quality indicators. Large-stage Group2/E4 timings are descriptive context only."
+}

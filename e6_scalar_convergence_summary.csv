@@ -1,0 +1,5 @@
+﻿algorithm,median_fraction_to_90,median_fraction_to_95,median_fraction_to_99,median_trace_points
+BDA-EHHO-VC-Calibrated,0.8,0.8,0.8,10.0
+BEHHO-VC-Calibrated,0.725,0.75,0.75,20.0
+EHHO-VC,0.33241758241758246,0.3708791208791209,0.46153846153846156,13.0
+HHO-VC,0.40909090909090906,0.5,0.5454545454545454,11.0
