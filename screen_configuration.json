@@ -1,0 +1,29 @@
+{
+  "images": 24,
+  "runs_per_image": 3,
+  "population_sizes": [
+    10,
+    20,
+    30
+  ],
+  "evaluation_budgets": [
+    300,
+    600
+  ],
+  "algorithms": [
+    "HHO-VC",
+    "EHHO-VC",
+    "BEHHO-VC-Calibrated",
+    "BDA-EHHO-VC-Calibrated"
+  ],
+  "behho": {
+    "diversity_threshold": 0.7,
+    "injection_fraction": 0.3
+  },
+  "hybrid": {
+    "rho_max": 0.7,
+    "rho_min": 0.3,
+    "schedule": "evaluation-budget based"
+  },
+  "total_planned_runs": 1728
+}

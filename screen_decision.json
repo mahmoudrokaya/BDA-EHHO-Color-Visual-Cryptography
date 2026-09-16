@@ -1,0 +1,8 @@
+{
+  "completion_pass": true,
+  "budget_compliance_pass": true,
+  "recommended_population_size": 30,
+  "recommended_evaluation_budget": 600,
+  "status": "PROVISIONAL_CONFIGURATION_SELECTED",
+  "next_stage": "100-image BSDS500 validation confirmation"
+}
