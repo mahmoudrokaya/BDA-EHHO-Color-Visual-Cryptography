@@ -1,0 +1,145 @@
+﻿experiment_id,dataset,split,filename,channel,correlation_mode,share_aggregation,best_NX,best_objective
+IMG_0027,BSDS500,validation,16077.jpg,R,signed_cc,share1,4,5.028232648021232
+IMG_0027,BSDS500,validation,16077.jpg,R,signed_cc,share2,22,5.035722474995055
+IMG_0027,BSDS500,validation,16077.jpg,R,signed_cc,mean,7,5.035576253875608
+IMG_0027,BSDS500,validation,16077.jpg,R,signed_cc,max,168,5.038052485259995
+IMG_0027,BSDS500,validation,16077.jpg,R,abs_cc,share1,4,5.030109474136109
+IMG_0027,BSDS500,validation,16077.jpg,R,abs_cc,share2,22,5.035722474995055
+IMG_0027,BSDS500,validation,16077.jpg,R,abs_cc,mean,16,5.0360563320542155
+IMG_0027,BSDS500,validation,16077.jpg,R,abs_cc,max,168,5.038052485259995
+IMG_0027,BSDS500,validation,16077.jpg,G,signed_cc,share1,180,5.077599122528598
+IMG_0027,BSDS500,validation,16077.jpg,G,signed_cc,share2,35,5.082379919092953
+IMG_0027,BSDS500,validation,16077.jpg,G,signed_cc,mean,106,5.081384324249001
+IMG_0027,BSDS500,validation,16077.jpg,G,signed_cc,max,77,5.083293829127559
+IMG_0027,BSDS500,validation,16077.jpg,G,abs_cc,share1,204,5.085505543065256
+IMG_0027,BSDS500,validation,16077.jpg,G,abs_cc,share2,35,5.088378691829679
+IMG_0027,BSDS500,validation,16077.jpg,G,abs_cc,mean,204,5.087967607016013
+IMG_0027,BSDS500,validation,16077.jpg,G,abs_cc,max,106,5.089046741765929
+IMG_0027,BSDS500,validation,16077.jpg,B,signed_cc,share1,242,4.979031658015493
+IMG_0027,BSDS500,validation,16077.jpg,B,signed_cc,share2,155,4.983419065321017
+IMG_0027,BSDS500,validation,16077.jpg,B,signed_cc,mean,248,4.984216620424357
+IMG_0027,BSDS500,validation,16077.jpg,B,signed_cc,max,192,4.986377533972142
+IMG_0027,BSDS500,validation,16077.jpg,B,abs_cc,share1,227,4.98133601039361
+IMG_0027,BSDS500,validation,16077.jpg,B,abs_cc,share2,155,4.983419065321017
+IMG_0027,BSDS500,validation,16077.jpg,B,abs_cc,mean,248,4.985376000015709
+IMG_0027,BSDS500,validation,16077.jpg,B,abs_cc,max,192,4.986377533972142
+IMG_0087,BSDS500,validation,66053.jpg,R,signed_cc,share1,77,4.920509656288466
+IMG_0087,BSDS500,validation,66053.jpg,R,signed_cc,share2,17,4.9126651804729455
+IMG_0087,BSDS500,validation,66053.jpg,R,signed_cc,mean,18,4.918279495082766
+IMG_0087,BSDS500,validation,66053.jpg,R,signed_cc,max,77,4.920509656288466
+IMG_0087,BSDS500,validation,66053.jpg,R,abs_cc,share1,77,4.920509656288466
+IMG_0087,BSDS500,validation,66053.jpg,R,abs_cc,share2,17,4.9126651804729455
+IMG_0087,BSDS500,validation,66053.jpg,R,abs_cc,mean,18,4.918279495082766
+IMG_0087,BSDS500,validation,66053.jpg,R,abs_cc,max,77,4.920509656288466
+IMG_0087,BSDS500,validation,66053.jpg,G,signed_cc,share1,3,4.897888449221239
+IMG_0087,BSDS500,validation,66053.jpg,G,signed_cc,share2,234,4.915494298369346
+IMG_0087,BSDS500,validation,66053.jpg,G,signed_cc,mean,240,4.910991988914261
+IMG_0087,BSDS500,validation,66053.jpg,G,signed_cc,max,234,4.915494298369346
+IMG_0087,BSDS500,validation,66053.jpg,G,abs_cc,share1,3,4.90292467690196
+IMG_0087,BSDS500,validation,66053.jpg,G,abs_cc,share2,234,4.915494298369346
+IMG_0087,BSDS500,validation,66053.jpg,G,abs_cc,mean,240,4.91156759589716
+IMG_0087,BSDS500,validation,66053.jpg,G,abs_cc,max,234,4.915494298369346
+IMG_0087,BSDS500,validation,66053.jpg,B,signed_cc,share1,102,4.278633637637417
+IMG_0087,BSDS500,validation,66053.jpg,B,signed_cc,share2,5,4.266323763472584
+IMG_0087,BSDS500,validation,66053.jpg,B,signed_cc,mean,97,4.279006979295243
+IMG_0087,BSDS500,validation,66053.jpg,B,signed_cc,max,102,4.279820468125296
+IMG_0087,BSDS500,validation,66053.jpg,B,abs_cc,share1,102,4.278633637637417
+IMG_0087,BSDS500,validation,66053.jpg,B,abs_cc,share2,5,4.266323763472584
+IMG_0087,BSDS500,validation,66053.jpg,B,abs_cc,mean,97,4.279006979295243
+IMG_0087,BSDS500,validation,66053.jpg,B,abs_cc,max,102,4.279820468125296
+IMG_0169,BSDS500,test,183066.jpg,R,signed_cc,share1,13,4.852532617253898
+IMG_0169,BSDS500,test,183066.jpg,R,signed_cc,share2,35,4.834826142054031
+IMG_0169,BSDS500,test,183066.jpg,R,signed_cc,mean,81,4.845906032442459
+IMG_0169,BSDS500,test,183066.jpg,R,signed_cc,max,13,4.852532617253898
+IMG_0169,BSDS500,test,183066.jpg,R,abs_cc,share1,13,4.8584471220652805
+IMG_0169,BSDS500,test,183066.jpg,R,abs_cc,share2,35,4.848451525433851
+IMG_0169,BSDS500,test,183066.jpg,R,abs_cc,mean,19,4.854745199499159
+IMG_0169,BSDS500,test,183066.jpg,R,abs_cc,max,13,4.8584471220652805
+IMG_0169,BSDS500,test,183066.jpg,G,signed_cc,share1,2,4.930445416300657
+IMG_0169,BSDS500,test,183066.jpg,G,signed_cc,share2,2,4.933272558694104
+IMG_0169,BSDS500,test,183066.jpg,G,signed_cc,mean,2,4.93185898749738
+IMG_0169,BSDS500,test,183066.jpg,G,signed_cc,max,2,4.933272558694104
+IMG_0169,BSDS500,test,183066.jpg,G,abs_cc,share1,2,4.938329890911039
+IMG_0169,BSDS500,test,183066.jpg,G,abs_cc,share2,2,4.940779738160361
+IMG_0169,BSDS500,test,183066.jpg,G,abs_cc,mean,2,4.9395548145357004
+IMG_0169,BSDS500,test,183066.jpg,G,abs_cc,max,2,4.940779738160361
+IMG_0169,BSDS500,test,183066.jpg,B,signed_cc,share1,178,5.060184124144815
+IMG_0169,BSDS500,test,183066.jpg,B,signed_cc,share2,4,5.076900205908565
+IMG_0169,BSDS500,test,183066.jpg,B,signed_cc,mean,175,5.069021631661632
+IMG_0169,BSDS500,test,183066.jpg,B,signed_cc,max,4,5.076900205908565
+IMG_0169,BSDS500,test,183066.jpg,B,abs_cc,share1,178,5.066792378654885
+IMG_0169,BSDS500,test,183066.jpg,B,abs_cc,share2,4,5.076900205908565
+IMG_0169,BSDS500,test,183066.jpg,B,abs_cc,mean,175,5.072276520272603
+IMG_0169,BSDS500,test,183066.jpg,B,abs_cc,max,4,5.076900205908565
+IMG_0173,BSDS500,test,188025.jpg,R,signed_cc,share1,40,5.23442103389682
+IMG_0173,BSDS500,test,188025.jpg,R,signed_cc,share2,16,5.24040662081834
+IMG_0173,BSDS500,test,188025.jpg,R,signed_cc,mean,16,5.238065545753153
+IMG_0173,BSDS500,test,188025.jpg,R,signed_cc,max,16,5.24040662081834
+IMG_0173,BSDS500,test,188025.jpg,R,abs_cc,share1,20,5.237532415355601
+IMG_0173,BSDS500,test,188025.jpg,R,abs_cc,share2,16,5.241299911078571
+IMG_0173,BSDS500,test,188025.jpg,R,abs_cc,mean,20,5.239759072197307
+IMG_0173,BSDS500,test,188025.jpg,R,abs_cc,max,16,5.241299911078571
+IMG_0173,BSDS500,test,188025.jpg,G,signed_cc,share1,98,4.975059141170836
+IMG_0173,BSDS500,test,188025.jpg,G,signed_cc,share2,7,4.9880204680137155
+IMG_0173,BSDS500,test,188025.jpg,G,signed_cc,mean,9,4.984738343127779
+IMG_0173,BSDS500,test,188025.jpg,G,signed_cc,max,7,4.9880204680137155
+IMG_0173,BSDS500,test,188025.jpg,G,abs_cc,share1,98,4.980860332920469
+IMG_0173,BSDS500,test,188025.jpg,G,abs_cc,share2,3,4.988679226195738
+IMG_0173,BSDS500,test,188025.jpg,G,abs_cc,mean,9,4.9864237638919215
+IMG_0173,BSDS500,test,188025.jpg,G,abs_cc,max,4,4.988686782457081
+IMG_0173,BSDS500,test,188025.jpg,B,signed_cc,share1,27,5.248680557793408
+IMG_0173,BSDS500,test,188025.jpg,B,signed_cc,share2,2,5.259077545936849
+IMG_0173,BSDS500,test,188025.jpg,B,signed_cc,mean,2,5.254960317360926
+IMG_0173,BSDS500,test,188025.jpg,B,signed_cc,max,2,5.259077545936849
+IMG_0173,BSDS500,test,188025.jpg,B,abs_cc,share1,11,5.252652302748082
+IMG_0173,BSDS500,test,188025.jpg,B,abs_cc,share2,2,5.260987690435893
+IMG_0173,BSDS500,test,188025.jpg,B,abs_cc,mean,2,5.259023428560964
+IMG_0173,BSDS500,test,188025.jpg,B,abs_cc,max,2,5.260987690435893
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,signed_cc,share1,7,5.649961095154247
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,signed_cc,share2,182,5.649989513785882
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,signed_cc,mean,182,5.652966840084021
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,signed_cc,max,182,5.655944166382161
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,abs_cc,share1,2,5.657642402965868
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,abs_cc,share2,189,5.66111992899571
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,abs_cc,mean,2,5.660625735167834
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,R,abs_cc,max,189,5.66111992899571
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,signed_cc,share1,219,5.218125915365982
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,signed_cc,share2,85,5.237471279413497
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,signed_cc,mean,229,5.2312262627938
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,signed_cc,max,85,5.237471279413497
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,abs_cc,share1,219,5.232286037410149
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,abs_cc,share2,85,5.241022439395933
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,abs_cc,mean,229,5.238478316345244
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,G,abs_cc,max,85,5.241022439395933
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,signed_cc,share1,34,5.037312907142708
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,signed_cc,share2,97,5.027396516085703
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,signed_cc,mean,5,5.0364476767823145
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,signed_cc,max,5,5.039509429442719
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,abs_cc,share1,34,5.037312907142708
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,abs_cc,share2,97,5.031673979539151
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,abs_cc,mean,5,5.036558763479345
+IMG_0305,USC-SIPI Miscellaneous,classical,4.1.05.tiff,B,abs_cc,max,5,5.039509429442719
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,signed_cc,share1,26,5.393753393228014
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,signed_cc,share2,7,5.385945473829623
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,signed_cc,mean,7,5.391221464727211
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,signed_cc,max,26,5.393753393228014
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,abs_cc,share1,26,5.393753393228014
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,abs_cc,share2,7,5.389063955227678
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,abs_cc,mean,6,5.392502619087015
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,R,abs_cc,max,26,5.393753393228014
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,signed_cc,share1,33,4.689007422236251
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,signed_cc,share2,14,4.719607641000768
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,signed_cc,mean,155,4.705171639836017
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,signed_cc,max,14,4.719607641000768
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,abs_cc,share1,2,4.692785380491888
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,abs_cc,share2,14,4.719607641000768
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,abs_cc,mean,14,4.707237231189346
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,G,abs_cc,max,14,4.719607641000768
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,signed_cc,share1,211,4.702171402536827
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,signed_cc,share2,13,4.711750681622253
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,signed_cc,mean,93,4.709207778046463
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,signed_cc,max,65,4.712189214484692
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,abs_cc,share1,211,4.709200236745968
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,abs_cc,share2,13,4.714778527862754
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,abs_cc,mean,103,4.71438351594354
+IMG_0313,USC-SIPI Miscellaneous,classical,4.2.07.tiff,B,abs_cc,max,57,4.71535367741296

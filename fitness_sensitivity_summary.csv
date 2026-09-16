@@ -1,0 +1,9 @@
+﻿correlation_mode,share_aggregation,cases,same_optimum_rate,median_abs_NX_difference,max_abs_NX_difference
+abs_cc,max,18,22.22222222222222,13.0,187
+abs_cc,mean,18,100.0,0.0,0
+abs_cc,share1,18,22.22222222222222,11.0,237
+abs_cc,share2,18,16.666666666666664,11.0,187
+signed_cc,max,18,22.22222222222222,13.0,180
+signed_cc,mean,18,55.55555555555556,0.0,180
+signed_cc,share1,18,5.555555555555555,19.5,237
+signed_cc,share2,18,16.666666666666664,11.0,180
