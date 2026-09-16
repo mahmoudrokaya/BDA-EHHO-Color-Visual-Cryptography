@@ -1,0 +1,9 @@
+{
+  "experiment": "E4 multi-objective effect",
+  "comparison_unit": "100 images; 5 runs summarized by image median",
+  "mo_median_hypervolume": 0.9111568065580986,
+  "best_singleobjective_median_hypervolume": 0.0899062704023299,
+  "mo_median_igd": 0.0071827718716471495,
+  "best_singleobjective_median_igd": 0.6961310324336029,
+  "note": "Interpret E4 primarily from set-level HV/IGD/epsilon, not from forcing one compromise point to win every objective."
+}
