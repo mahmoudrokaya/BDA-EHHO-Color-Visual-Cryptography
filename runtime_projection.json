@@ -1,0 +1,9 @@
+{
+  "validation_population": 10,
+  "validation_iterations": 10,
+  "validation_eval_budget_per_channel": 100,
+  "mean_primary_runtime_seconds_per_image": 10.047989066680506,
+  "bda_final_image_run_count_214_x_30": 6420,
+  "bda_214_images_30_runs_hours": 17.918913835580238,
+  "warning": "Planning estimate only; final frozen budget may differ."
+}

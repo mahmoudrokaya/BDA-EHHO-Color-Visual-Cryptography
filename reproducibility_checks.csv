@@ -1,0 +1,7 @@
+﻿experiment_id,filename,primary_seed,same_seed_exactly_reproducible,alternate_seed,alternate_seed_shows_variability,primary_levels,same_seed_levels,alternate_seed_levels
+IMG_0027,16077.jpg,20260938,True,21260941,True,"(168, 208, 245)","(168, 208, 245)","(14, 173, 10)"
+IMG_0087,66053.jpg,20260998,True,21261001,True,"(18, 240, 97)","(18, 240, 97)","(2, 238, 200)"
+IMG_0169,183066.jpg,20261080,True,21261083,True,"(73, 2, 175)","(73, 2, 175)","(18, 4, 2)"
+IMG_0173,188025.jpg,20261084,True,21261087,True,"(20, 27, 2)","(20, 27, 2)","(5, 92, 135)"
+IMG_0305,4.1.05.tiff,20261216,True,21261219,True,"(2, 95, 156)","(2, 95, 156)","(149, 3, 11)"
+IMG_0313,4.2.07.tiff,20261224,True,21261227,True,"(6, 13, 234)","(6, 13, 234)","(2, 8, 77)"

@@ -1,0 +1,7 @@
+experiment_id,dataset,split,experimental_role,relative_to_data,filename,width,height,mode,format,sha256
+IMG_0027,BSDS500,validation,development_parameter_selection,BSR\BSDS500\data\images\val\16077.jpg,16077.jpg,481,321,RGB,JPEG,19d4d8a03773c9b65f4e4cfed7b0f5674ebe07a9cc4800de554f0c30556c85ec
+IMG_0087,BSDS500,validation,development_parameter_selection,BSR\BSDS500\data\images\val\66053.jpg,66053.jpg,481,321,RGB,JPEG,bc27ff2d520d63f8ffc8575269a14c295788542cb723fcce6bda3752e9de27a7
+IMG_0169,BSDS500,test,final_evaluation_natural_images,BSR\BSDS500\data\images\test\183066.jpg,183066.jpg,481,321,RGB,JPEG,51e445086f15f1ac6ed53fe36d8b05cee73af1814b31bfebe586c1ad380ea3f6
+IMG_0173,BSDS500,test,final_evaluation_natural_images,BSR\BSDS500\data\images\test\188025.jpg,188025.jpg,481,321,RGB,JPEG,36f77290d5616c2a19d1e500894d654eb4150334b6d7415a4ae94281d82ccddd
+IMG_0305,USC-SIPI Miscellaneous,classical,final_evaluation_classical,misc\4.1.05.tiff,4.1.05.tiff,256,256,RGB,TIFF,6cecbf11be31a64a8397463b24b32cc753a657a616a80b147c93e4579f4c734e
+IMG_0313,USC-SIPI Miscellaneous,classical,final_evaluation_classical,misc\4.2.07.tiff,4.2.07.tiff,512,512,RGB,TIFF,676c21edcc56b517ebd54764d6026d2befe7e15014ec3f0c9e6f2ce1d9ad74bf
