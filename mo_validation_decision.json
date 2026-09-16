@@ -1,0 +1,14 @@
+{
+  "completion_pass": true,
+  "budget_compliance_pass": true,
+  "archive_nonempty_pass": true,
+  "archive_nondominance_pass": true,
+  "mechanism_health_pass": false,
+  "completed_runs": 24,
+  "expected_runs": 24,
+  "pct_runs_with_injection": 0.0,
+  "mean_bda_fraction": 0.49385964912280694,
+  "mean_ehho_fraction": 0.5061403508771931,
+  "status": "REVIEW_REQUIRED",
+  "next_stage": "Freeze Section 3.4 objective/evaluation definitions, then design E4 multi-objective comparative experiment."
+}
