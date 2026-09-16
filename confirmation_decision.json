@@ -1,0 +1,11 @@
+{
+  "completion_pass": true,
+  "budget_compliance_pass": true,
+  "mechanism_health_pass": true,
+  "friedman_statistic": 5.4994818652849915,
+  "friedman_p": 0.13866961085969995,
+  "frozen_population_size": 30,
+  "frozen_evaluation_budget": 600,
+  "status": "GROUP2_CONFIRMATION_COMPLETE",
+  "note": "No additional Group-2 parameter tuning permitted."
+}

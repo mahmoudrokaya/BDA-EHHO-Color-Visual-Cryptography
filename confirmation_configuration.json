@@ -1,0 +1,24 @@
+{
+  "stage": "confirmation_not_tuning",
+  "images": 100,
+  "runs_per_image": 5,
+  "population_size": 30,
+  "evaluation_budget": 600,
+  "algorithms": [
+    "HHO-VC",
+    "EHHO-VC",
+    "BEHHO-VC-Calibrated",
+    "BDA-EHHO-VC-Calibrated"
+  ],
+  "behho": {
+    "diversity_threshold": 0.7,
+    "injection_fraction": 0.3
+  },
+  "hybrid": {
+    "rho_max": 0.7,
+    "rho_min": 0.3,
+    "schedule": "evaluation-budget based"
+  },
+  "runtime_fairness": "separate objective/cache per algorithm; randomized execution order",
+  "total_planned_runs": 2000
+}
