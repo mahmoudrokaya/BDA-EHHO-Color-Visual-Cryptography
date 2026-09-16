@@ -1,0 +1,5 @@
+﻿image,reported_psnr_db,reported_mse,psnr_from_reported_mse_standard_formula,mse_implied_by_reported_psnr_standard_formula,reported_pair_consistent_standard_8bit_psnr
+Lena,7.4121,5.4721,40.74926335560207,11799.68356464569,False
+Jet,6.1177,4.3311,41.76482149674014,15896.82381158463,False
+Barbara,7.3681,5.0011,41.14014822254258,11919.838214854472,False
+Sailboat,6.1315,4.1121,41.9901669337288,15846.39075168617,False

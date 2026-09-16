@@ -1,0 +1,166 @@
+{
+  "reference": {
+    "title": "An enhanced color visual cryptography scheme based on the binary dragonfly algorithm",
+    "doi": "10.1080/1206212X.2020.1859244"
+  },
+  "requirements": [
+    {
+      "id": "R01",
+      "component": "VC threshold",
+      "reference_requirement": "(2,2) color visual cryptography / two shares",
+      "source_note": "Abstract and proposed method",
+      "importance": "critical"
+    },
+    {
+      "id": "R02",
+      "component": "Color decomposition",
+      "reference_requirement": "Separate R, G and B matrices with original spatial dimensions",
+      "source_note": "Section 4.1",
+      "importance": "critical"
+    },
+    {
+      "id": "R03",
+      "component": "Histogram",
+      "reference_requirement": "Generate an intensity histogram separately for R, G and B",
+      "source_note": "Section 4.2",
+      "importance": "critical"
+    },
+    {
+      "id": "R04",
+      "component": "Decision variables",
+      "reference_requirement": "XR, XG, XB are 8-bit color-level variables (24 bits total)",
+      "source_note": "Section 4.3",
+      "importance": "critical"
+    },
+    {
+      "id": "R05",
+      "component": "Optimization objective",
+      "reference_requirement": "Select color levels that minimize PSNR + correlation coefficient between original and share images",
+      "source_note": "Section 4.3 / Algorithm 2",
+      "importance": "critical"
+    },
+    {
+      "id": "R06",
+      "component": "BDA structure",
+      "reference_requirement": "BDA operations applied to all three channels during the same optimization process",
+      "source_note": "Section 4.3; supplied MATLAB BDA has XR/XG/XB together",
+      "importance": "critical"
+    },
+    {
+      "id": "R07",
+      "component": "Reference iteration count",
+      "reference_requirement": "1000 BDA iterations used to identify optimal color levels",
+      "source_note": "Section 4.3",
+      "importance": "benchmark-reproduction"
+    },
+    {
+      "id": "R08",
+      "component": "Grouping",
+      "reference_requirement": "For channel X, divide its histogram into NX regions containing approximately equal numbers of pixels",
+      "source_note": "Section 4.4",
+      "importance": "critical"
+    },
+    {
+      "id": "R09",
+      "component": "Probability",
+      "reference_requirement": "For group k, P = k/(NX-1)",
+      "source_note": "Section 4.5",
+      "importance": "critical"
+    },
+    {
+      "id": "R10",
+      "component": "Share generation when r<P",
+      "reference_requirement": "If r<P/2 both share pixels are 0; otherwise both are 255",
+      "source_note": "Section 4.5",
+      "importance": "critical"
+    },
+    {
+      "id": "R11",
+      "component": "Share generation when r>=P",
+      "reference_requirement": "Assign (0,255) or (255,0) according to the paper probability split",
+      "source_note": "Section 4.5",
+      "importance": "critical"
+    },
+    {
+      "id": "R12",
+      "component": "Final color shares",
+      "reference_requirement": "Combine R/G/B binary channel shares into two RGB shares",
+      "source_note": "Section 4.5",
+      "importance": "critical"
+    },
+    {
+      "id": "R13",
+      "component": "Pixel expansion",
+      "reference_requirement": "Shares have the same dimensions as the original image",
+      "source_note": "Abstract / Sections 4.4-4.5",
+      "importance": "critical"
+    },
+    {
+      "id": "R14",
+      "component": "Decryption",
+      "reference_requirement": "I_rec = Share1 XOR Share2",
+      "source_note": "Section 4.6",
+      "importance": "critical"
+    },
+    {
+      "id": "R15",
+      "component": "BDA binary update",
+      "reference_requirement": "Use V3 transfer |DeltaX/sqrt(1+DeltaX^2)| and probabilistic bit flipping",
+      "source_note": "BDA background / supplied MATLAB implementation",
+      "importance": "critical"
+    }
+  ],
+  "ambiguities": [
+    {
+      "id": "A01",
+      "issue": "Fitness aggregation across two shares",
+      "detail": "The paper states fitness(PSNR + CC) from original-vs-share comparisons, but does not uniquely specify whether Share 1, Share 2, their sum, mean, minimum, or another aggregation is used.",
+      "impact": "Current Python implementation uses the mean across Share 1 and Share 2."
+    },
+    {
+      "id": "A02",
+      "issue": "Signed versus absolute correlation",
+      "detail": "The paper says minimize CC and later says ideal CC is zero. Direct minimization of signed Pearson CC could reward strongly negative correlations, which conflicts with the stated zero-correlation security goal.",
+      "impact": "Current Python implementation minimizes |CC|."
+    },
+    {
+      "id": "A03",
+      "issue": "NX range includes invalid group counts",
+      "detail": "The paper describes XR/XG/XB as 8-bit values ranging 0-255, but share generation uses P=k/(NX-1); NX=0 or NX=1 is mathematically invalid as a number of histogram groups.",
+      "impact": "Current executable implementation clamps decoded NX to [2,255]."
+    },
+    {
+      "id": "A04",
+      "issue": "PSNR/MSE interpretation in performance section",
+      "detail": "The paper treats low PSNR as desirable encryption quality for original-vs-share comparison, but nearby prose also discusses recovered-image quality. Its reported PSNR and MSE values are not mutually consistent under the standard 8-bit PSNR formula.",
+      "impact": "Do not interpret low original-vs-share PSNR as reconstructed-image PSNR. Keep secrecy and reconstruction metrics separate in the new study."
+    },
+    {
+      "id": "A05",
+      "issue": "Grouping and tied histogram intensities",
+      "detail": "The paper requires equal numbers of pixels per group, but identical intensity values cannot always be split into strictly equal histogram regions without splitting an intensity bin.",
+      "impact": "Current implementation uses deterministic cumulative-histogram quantile boundaries; group populations are therefore approximately equal when ties occur."
+    }
+  ],
+  "validation_evidence": {
+    "available": true,
+    "n_images": 6,
+    "critical_pass": 6,
+    "same_seed_pass": 6,
+    "reconstruction_psnr_mean": 3.414830805802383,
+    "reconstruction_psnr_min": 3.1149178130405413,
+    "reconstruction_psnr_max": 3.779760865243718,
+    "share1_mean_psnr_mean": 5.0140721597969025,
+    "share1_mean_psnr_min": 4.701611224602506,
+    "share1_mean_psnr_max": 5.309662592388578,
+    "share2_mean_psnr_mean": 5.0178415268375245,
+    "share2_mean_psnr_min": 4.699991913449515,
+    "share2_mean_psnr_max": 5.311229125595573,
+    "share1_mean_abs_cc_mean": 0.0024870180240089833,
+    "share1_mean_abs_cc_min": 0.0018503068625673,
+    "share1_mean_abs_cc_max": 0.0037111517440588,
+    "share2_mean_abs_cc_mean": 0.0020028346229437996,
+    "share2_mean_abs_cc_min": 0.0005864996746224,
+    "share2_mean_abs_cc_max": 0.003699670300516
+  }
+}

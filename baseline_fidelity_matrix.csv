@@ -1,0 +1,16 @@
+﻿id,component,reference_requirement,source_note,importance,implementation_status,implementation_evidence
+R01,VC threshold,"(2,2) color visual cryptography / two shares",Abstract and proposed method,critical,MATCH,generate_rgb_shares produces exactly Share 1 and Share 2.
+R02,Color decomposition,"Separate R, G and B matrices with original spatial dimensions",Section 4.1,critical,REVIEW,RGB module explicitly separates three channels without resizing.
+R03,Histogram,"Generate an intensity histogram separately for R, G and B",Section 4.2,critical,MATCH,Share-generation module builds a 256-bin channel histogram.
+R04,Decision variables,"XR, XG, XB are 8-bit color-level variables (24 bits total)",Section 4.3,critical,MATCH,Encoding uses 8 bits per channel; RGB solution is 24 bits.
+R05,Optimization objective,Select color levels that minimize PSNR + correlation coefficient between original and share images,Section 4.3 / Algorithm 2,critical,ADAPTATION,Implements mean[PSNR + |CC|] across both shares. Paper does not uniquely specify share aggregation and says ideal CC is zero.
+R06,BDA structure,BDA operations applied to all three channels during the same optimization process,Section 4.3; supplied MATLAB BDA has XR/XG/XB together,critical,DEVIATION,Current Python g1_07 optimizes R/G/B channels sequentially with separate optimizer streams; supplied/reference MATLAB BDA updates XR/XG/XB within one joint loop.
+R07,Reference iteration count,1000 BDA iterations used to identify optimal color levels,Section 4.3,benchmark-reproduction,CONFIGURABLE,"g1_07 supports max_iterations; real-image validation intentionally used 10 iterations, while paper benchmark states 1000."
+R08,Grouping,"For channel X, divide its histogram into NX regions containing approximately equal numbers of pixels",Section 4.4,critical,MATCH_WITH_TIE_RULE,Uses cumulative histogram targets and unique boundaries; exact equal population may be impossible for tied intensities.
+R09,Probability,"For group k, P = k/(NX-1)",Section 4.5,critical,MATCH,Probability derives from group index divided by effective_groups-1.
+R10,Share generation when r<P,If r<P/2 both share pixels are 0; otherwise both are 255,Section 4.5,critical,MATCH,"For r<P, implementation assigns (0,0) below P/2 and (255,255) otherwise."
+R11,Share generation when r>=P,"Assign (0,255) or (255,0) according to the paper probability split",Section 4.5,critical,MATCH,"For r>=P, implementation uses split P+(1-P)/2 and assigns (0,255)/(255,0)."
+R12,Final color shares,Combine R/G/B binary channel shares into two RGB shares,Section 4.5,critical,MATCH,R/G/B channel shares are stacked into final RGB shares.
+R13,Pixel expansion,Shares have the same dimensions as the original image,Abstract / Sections 4.4-4.5,critical,MATCH,No pixel expansion; real-image validation verifies identical dimensions.
+R14,Decryption,I_rec = Share1 XOR Share2,Section 4.6,critical,MATCH,Reconstruction uses bitwise XOR.
+R15,BDA binary update,Use V3 transfer |DeltaX/sqrt(1+DeltaX^2)| and probabilistic bit flipping,BDA background / supplied MATLAB implementation,critical,MATCH,BDA implementation uses the V3 transfer and probabilistic bit flips.

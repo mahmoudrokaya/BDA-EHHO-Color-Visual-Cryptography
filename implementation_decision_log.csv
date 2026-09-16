@@ -1,0 +1,7 @@
+﻿decision,item,choice,reason,classification
+D01,Minimum group count,"Clamp decoded NX to [2,255]",P=k/(NX-1) is undefined for NX=1 and zero groups are not meaningful.,necessary executable adaptation
+D02,Correlation term,Use |Pearson CC| rather than signed CC,Paper states the security target is CC≈0; signed minimization could reward CC=-1.,interpretive adaptation; must be disclosed
+D03,Two-share fitness,Mean the fitness contribution from Share 1 and Share 2,Paper does not specify a unique aggregation across the two generated shares.,interpretive adaptation; sensitivity test recommended
+D04,Probabilistic fitness noise,Reuse fixed random fields within a run,Provides common-random-number comparison of candidate levels and reproducibility.,"reproducibility enhancement, not stated in reference"
+D05,R/G/B optimizer loop,Revise current Python baseline to a joint three-channel BDA loop,Reference text and supplied MATLAB BDA update XR/XG/XB together in the same loop.,required fidelity correction
+D06,Reconstruction quality interpretation,Separate reconstructed-image fidelity metrics from secret-vs-share encryption metrics,Reference paper mixes/ambiguously labels these concepts; low secret-share PSNR is not high reconstructed-image PSNR.,required clarification for new study
