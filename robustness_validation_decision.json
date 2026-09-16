@@ -1,0 +1,7 @@
+{
+  "diagnostic_top_candidate": "B1_central_mean",
+  "top_candidate_score": 0.7824141333998607,
+  "human_conceptual_review_required": true,
+  "redundancy_warnings": [],
+  "recommended_freeze_rule": "Freeze only a candidate that is nonconstant within archives, monotonic with damage level, and not strongly redundant with reconstruction."
+}
