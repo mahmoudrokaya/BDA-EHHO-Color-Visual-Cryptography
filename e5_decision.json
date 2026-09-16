@@ -1,0 +1,29 @@
+{
+  "experiment": "E5 robustness and security",
+  "design": "100 images x 5 runs x 5 frozen methods; no optimizer rerun",
+  "security_metrics": [
+    "absolute secret-share correlation",
+    "normalized mutual information",
+    "histogram overlap",
+    "1-normalized secret-share MSE similarity"
+  ],
+  "robustness_families": [
+    "central block erasure (seen)",
+    "random block erasure",
+    "pixel dropout",
+    "bit flip",
+    "crop loss"
+  ],
+  "rates": [
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "primary_robustness_metrics": [
+    "seen central-block mean delta NMSE",
+    "unseen-family mean delta NMSE",
+    "all-family mean delta NMSE"
+  ],
+  "note": "E5 evaluates generalization beyond the optimized central-block robustness objective; unseen perturbations are primary evidence of robustness transfer."
+}
